@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_224385_nuts_bolt_new_order" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="New Order - Default view" name="x_224385_nuts_bolt_new_order" related_list="NULL" sys_domain="global" view="Default view">d4651379db42130040d65385ca9619eb</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_224385_nuts_bolt_company.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 10:32:13</sys_created_on>
+            <sys_id>54651379db42130040d65385ca9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 10:32:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="New Order - Default view" name="x_224385_nuts_bolt_new_order" related_list="NULL" sys_domain="global" view="Default view">d4651379db42130040d65385ca9619eb</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_224385_nuts_bolt_article.vendor</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 10:32:13</sys_created_on>
+            <sys_id>9c651379db42130040d65385ca9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 10:32:13</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>New Order - Default view</calculated_name>
+            <filter/>
+            <name>x_224385_nuts_bolt_new_order</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-14 10:32:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4651379db42130040d65385ca9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Order - Default view</sys_name>
+            <sys_package display_value="Nuts&amp;BoltsNow V.2" source="x_224385_nuts_bolt">f3fadd10db02130040d65385ca961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nuts&amp;BoltsNow V.2">f3fadd10db02130040d65385ca961994</sys_scope>
+            <sys_update_name>sys_ui_related_x_224385_nuts_bolt_new_order_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-14 10:32:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

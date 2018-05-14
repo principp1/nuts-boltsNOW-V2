@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_224385_nuts_bolt_new_order" label="Company" max_length="40" name="x_224385_nuts_bolt_company" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="Customer" sequence="0" value="customer"/>
+                <element label="Vendor" sequence="1" value="vendor"/>
+            </choice>
+        </element>
+    </element>
+</database>

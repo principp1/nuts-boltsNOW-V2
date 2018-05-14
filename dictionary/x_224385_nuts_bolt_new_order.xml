@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="core_company" label="New Order" max_length="40" name="x_224385_nuts_bolt_new_order" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

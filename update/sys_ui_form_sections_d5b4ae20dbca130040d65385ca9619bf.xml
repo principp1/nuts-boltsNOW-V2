@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d5b4ae20dbca130040d65385ca9619bf" sys_domain="global" table="x_224385_nuts_bolt_new_order" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 09:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99b4ae20dbca130040d65385ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_224385_nuts_bolt_new_order" name="x_224385_nuts_bolt_new_order" sys_domain="global" view="Default view">d5b4ae20dbca130040d65385ca9619bf</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_new_order" sys_domain="global" view="Default view">d9b4ae20dbca130040d65385ca9619c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 09:47:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_224385_nuts_bolt_new_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 09:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5b4ae20dbca130040d65385ca9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_224385_nuts_bolt_new_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nuts&amp;BoltsNow V.2" source="x_224385_nuts_bolt">f3fadd10db02130040d65385ca961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nuts&amp;BoltsNow V.2">f3fadd10db02130040d65385ca961994</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d5b4ae20dbca130040d65385ca9619bf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 09:47:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
