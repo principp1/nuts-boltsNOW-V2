@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="7e47d162db02130040d65385ca961917" sys_domain="global" table="x_224385_nuts_bolt_article" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>5e1c91aadb02130040d65385ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>de1c91aadb02130040d65385ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_price</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>521c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_article_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>d21c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ean_code</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>561c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_packing_unit</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>d61c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_length</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>5a1c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_diameter</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:37:46</sys_created_on>
+            <sys_id>da1c91aadb02130040d65385ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224385_nuts_bolt_article" sys_domain="global" view="Default view">7e47d162db02130040d65385ca961917</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:37:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>true</header>
+            <name>x_224385_nuts_bolt_article</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 09:16:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e47d162db02130040d65385ca961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_224385_nuts_bolt_article</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nuts&amp;BoltsNow V.2" source="x_224385_nuts_bolt">f3fadd10db02130040d65385ca961994</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nuts&amp;BoltsNow V.2">f3fadd10db02130040d65385ca961994</sys_scope>
+            <sys_update_name>sys_ui_section_7e47d162db02130040d65385ca961917</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 09:16:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

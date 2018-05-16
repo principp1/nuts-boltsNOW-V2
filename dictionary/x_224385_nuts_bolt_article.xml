@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="update_synch=true" extends="pc_vendor_cat_item" label="Article" max_length="40" name="x_224385_nuts_bolt_article" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element extends="cmdb_ci" label="Article" max_length="40" name="x_224385_nuts_bolt_article" type="collection">
+        <element label="Item Number" mandatory="true" max_length="40" name="u_article_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Diameter" max_length="40" name="u_diameter" type="string"/>
+        <element label="EAN Code" max_length="40" name="u_ean_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Length" max_length="40" name="u_length" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Packing Unit" mandatory="true" max_length="40" name="u_packing_unit" type="string">
+            <choice>
+                <element label="200 pcs" sequence="0" value="200_pcs"/>
+                <element label="1000 pcs" sequence="1" value="1000_pcs"/>
+                <element label="5000 pcs" sequence="2" value="5000_pcs"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="u_price" type="price"/>
     </element>
 </database>
