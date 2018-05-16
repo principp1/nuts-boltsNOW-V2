@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display Rank Tier choices that match the Type field.</description>
+        <field>u_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Nuts&amp;Bolts Company Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  if (newValue == '') {
+    return;
+  }
+
+  var ranktier = g_form.getValue('u_rank_tier');
+
+  // Clear all of the choices from the What needed field choice list
+  g_form.clearOptions('u_rank_tier');
+
+  // If the value of the Request type field is hr, addDog
+  // two hr choices and other to the What needed field choice list
+  if(newValue == 'customer'){
+    g_form.addOption('u_rank_tier', 'strategic_partner', 'Strategic Partner');
+    g_form.addOption('u_rank_tier', 'hr2', 'Valued Partner');
+    g_form.addOption('u_rank_tier', 'other', 'Other');
+  }
+  // If the value of the Request type field is facilities, add 
+  // two facilities choices and other to the What needed field 
+  // choice list
+  if(newValue == 'vendor'){
+    g_form.addOption('u_rank_tier', 'tactical_supplier', 'Tactical Supplier'); 
+    g_form.addOption('u_rank_tier', 'blacklisted_supplier', 'Blacklisted Supplier');
+    g_form.addOption('u_rank_tier', 'other', 'Other');
+  }
+  // If the value of the Request type field is legal, add 
+  // two legal choices and other to the What needed field 
+  // choice list 
+  
+
+  // If the form is loading and it is not a new record, set the u_what needed value to the 
+  // value from the record before it was loaded 
+  if(isLoading && !g_form.isNewRecord()){
+    g_form.setValue('u_rank_tier', ranktier);
+  }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 12:16:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d2cf9a6db42130040d65385ca961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nuts&amp;Bolts Company Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nuts&amp;BoltsNow V.2" source="x_224385_nuts_bolt">f3fadd10db02130040d65385ca961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nuts&amp;BoltsNow V.2">f3fadd10db02130040d65385ca961994</sys_scope>
+        <sys_update_name>sys_script_client_3d2cf9a6db42130040d65385ca961963</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 12:16:46</sys_updated_on>
+        <table>x_224385_nuts_bolt_company</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

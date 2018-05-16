@@ -2,11 +2,13 @@
 <database>
     <element audit="true" extends="x_224385_nuts_bolt_new_order" label="Company" max_length="40" name="x_224385_nuts_bolt_company" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Rank tier" max_length="40" name="u_rank_tier" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="strategic_partner" label="Rank tier" max_length="40" name="u_rank_tier" type="string">
             <choice>
                 <element label="Strategic Partner" sequence="0" value="strategic_partner"/>
                 <element label="Valued Partner" sequence="1" value="valued_partner"/>
-                <element label="Other" sequence="2" value="other"/>
+                <element label="Tactical Supplier" sequence="2" value="tactical_supplier"/>
+                <element label="Blacklisted Supplier" sequence="3" value="blacklisted_supplier"/>
+                <element label="Other" sequence="4" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Rank tier" max_length="40" name="u_rank_tier_partner" type="string">
@@ -16,7 +18,7 @@
                 <element label="Other" sequence="2" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="customer" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
             <choice>
                 <element label="Customer" sequence="0" value="customer"/>
                 <element label="Vendor" sequence="1" value="vendor"/>
